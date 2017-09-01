@@ -1,5 +1,5 @@
 [
-  {"id" : "AA", "status" : false},
+  {"id" : "AA", "status" : false, "image" : "./assets/image/AA.png"},
   {"id" : "BB", "status" : false},
   {"id" : "CC", "status" : true},
   {"id" : "DD", "status" : false},

@@ -9,9 +9,10 @@
 <ion-content>
   <ion-list>
     <ion-list-header>items</ion-list-header>
-    <ion-item *ngFor="let item of items">
+    <div class="list-item" *ngFor="let item of items">
+      <ion-toggle [(ngModel)]="item.status" (ionChange)="change()"></ion-toggle>
+      <img [src]="item.image" />
       <ion-label>{{item.id}}</ion-label>
-      <ion-checkbox [(ngModel)]="item.status" (ionChange)="change()"></ion-checkbox>
-    </ion-item>
+    </div>
   </ion-list>
 </ion-content>

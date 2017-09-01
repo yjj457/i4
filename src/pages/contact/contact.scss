@@ -1,3 +1,25 @@
 page-contact {
 
 }
+
+ion-img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 0em 1em 0em 0em;
+}
+
+ion-label{
+  float: left;
+}
+
+ion-toggle, ion-checkbox{
+  float: left;
+  margin: 1em 1em 1em 1em;
+}
+
+div.list-item {
+  float: left;
+  width: 100%;
+  margin-bottom: 1em;
+}
