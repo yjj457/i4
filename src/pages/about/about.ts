@@ -7,7 +7,15 @@ import { NavController } from 'ionic-angular';
 })
 export class AboutPage {
 
+  cucumber: boolean;
+
   constructor(public navCtrl: NavController) {
+
+  }
+
+  aaa(){
+    console.log('Jon Snow new state:' + this.cucumber);
+
 
   }
 
